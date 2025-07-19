@@ -58,9 +58,66 @@ export default function About() {
         {/* Additional Services */}
         <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-6xl mx-auto">
           <Card className="backdrop-blur-md bg-white/10 border-white/20 shadow-xl">
-            <CardContent className="p-6 text-center">
-              <h4 className="text-xl font-bold text-primary mb-3">FREEDIVING RATES</h4>
-              <p className="text-gray-700">Competitive pricing for all freediving courses and experiences.</p>
+            <CardContent className="p-6">
+              <h4 className="text-xl font-bold text-primary mb-4 text-center">FREEDIVING RATES</h4>
+              
+              {/* Moon Stone Package */}
+              <div className="mb-6 p-4 bg-white/5 rounded-lg border border-white/10">
+                <h5 className="font-bold text-primary text-lg mb-2">MOON STONE PACKAGE</h5>
+                <p className="text-2xl font-bold text-accent mb-2">₱2,699 <span className="text-sm font-normal">per pax</span></p>
+                <p className="text-sm text-gray-600 mb-3">Day Tour (Whole Day Dive) - No accommodation included</p>
+                <div className="text-xs text-gray-700">
+                  <p className="font-semibold mb-1">Includes:</p>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>1 Day dive pass</li>
+                    <li>1 Theory class</li>
+                    <li>2 Open water dive sessions</li>
+                    <li>Coaching fee & entrance fee</li>
+                    <li>Freediving videos & gear rental</li>
+                    <li>Lunch & free muscle tee</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Crescent Moon Package */}
+              <div className="mb-6 p-4 bg-white/5 rounded-lg border border-white/10">
+                <h5 className="font-bold text-primary text-lg mb-2">CRESCENT MOON PACKAGE</h5>
+                <p className="text-2xl font-bold text-accent mb-2">₱3,999 <span className="text-sm font-normal">per pax</span></p>
+                <p className="text-sm text-gray-600 mb-3">2 Days & 1 Night - Shared aircon room accommodation</p>
+                <div className="text-xs text-gray-700">
+                  <p className="font-semibold mb-1">Includes:</p>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>2 Days dive pass</li>
+                    <li>1 Theory class</li>
+                    <li>3 Open water dive sessions</li>
+                    <li>3 Board meals (lunch-dinner-breakfast)</li>
+                    <li>Shared aircon room accommodation</li>
+                    <li>All gear & coaching included</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Sun Package */}
+              <div className="p-4 bg-white/5 rounded-lg border border-white/10">
+                <h5 className="font-bold text-primary text-lg mb-2">SUN PACKAGE</h5>
+                <p className="text-2xl font-bold text-accent mb-2">₱3,699 <span className="text-sm font-normal">per pax</span></p>
+                <p className="text-sm text-gray-600 mb-3">2 Days & 1 Night - Shared fan room accommodation</p>
+                <div className="text-xs text-gray-700">
+                  <p className="font-semibold mb-1">Includes:</p>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>2 Days dive pass</li>
+                    <li>1 Theory class</li>
+                    <li>3 Open water dive sessions</li>
+                    <li>3 Board meals (lunch-dinner-breakfast)</li>
+                    <li>Shared fan room accommodation</li>
+                    <li>All gear & coaching included</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <p className="text-xs text-gray-600 mt-4 text-center italic">
+                Solo joiners welcome on weekends! Carpool arrangements available separately.
+              </p>
             </CardContent>
           </Card>
 
