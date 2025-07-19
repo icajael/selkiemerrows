@@ -1,6 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import freediverImg from "@/assets/freediver.jpg";
-import scubaImg from "@/assets/scuba-diver.jpg";
 
 export default function About() {
   return (
@@ -35,7 +33,7 @@ export default function About() {
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <Card className="backdrop-blur-md bg-white/10 border-white/20 shadow-xl overflow-hidden">
-            <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url(${freediverImg})` }}></div>
+            <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url(/lovable-uploads/3a3780ab-6dd0-46b4-a34a-5ce8455f151e.png)` }}></div>
             <CardContent className="p-6">
               <h3 className="text-2xl font-bold text-primary mb-4">FREEDIVING SCHEDULES</h3>
               <p className="text-gray-700">
@@ -46,7 +44,7 @@ export default function About() {
           </Card>
 
           <Card className="backdrop-blur-md bg-white/10 border-white/20 shadow-xl overflow-hidden">
-            <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url(${scubaImg})` }}></div>
+            <div className="h-48 bg-cover bg-center" style={{ backgroundImage: `url(/lovable-uploads/a3ca3bb9-734f-429b-8d81-46c4a3d7b6f8.png)` }}></div>
             <CardContent className="p-6">
               <h3 className="text-2xl font-bold text-primary mb-4">SCUBA DIVING RATES</h3>
               <p className="text-gray-700">

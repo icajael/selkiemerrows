@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import oceanHero from "@/assets/ocean-hero.jpg";
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -11,7 +10,7 @@ export default function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${oceanHero})` }}
+        style={{ backgroundImage: `url(/lovable-uploads/5c748a7c-b7a4-464d-b092-7df7f165b02f.png)` }}
       >
         <div className="absolute inset-0 bg-gradient-ocean opacity-80"></div>
       </div>
